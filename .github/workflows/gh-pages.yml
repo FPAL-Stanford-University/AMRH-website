@@ -21,6 +21,9 @@ jobs:
           hugo-version: 'latest'
           extended: true
 
+      - name: Docsy prerequisites
+        run: npm install -D autoprefixer postcss-cli postcss
+
       - name: Build
         run: hugo version && hugo --minify
 
