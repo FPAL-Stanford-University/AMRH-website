@@ -4,6 +4,9 @@
 title: "Overview"
 linkTitle: "Overview"
 weight: 1
+resources:
+- name: stack
+  src: images/SoftwareStack.png
 description: >
 ---
 
@@ -31,4 +34,4 @@ As the result, user can better focus on the investigation of the physical or eng
 
 
 ## Basic structure and available modules
-<img class="img-fluid" src="images/SoftwareStack.png" width="600">
+<img class="img-fluid" src="/AMRH-website/docs/overview/images/SoftwareStack.png" width="600">
