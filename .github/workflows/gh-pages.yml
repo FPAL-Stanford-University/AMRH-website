@@ -25,7 +25,7 @@ jobs:
         run: npm install -D autoprefixer postcss-cli postcss
 
       - name: Build
-        run: hugo version && hugo --minify
+        run: \rm -r ./resources && hugo version && hugo --gc --minify --disableFastRender
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
