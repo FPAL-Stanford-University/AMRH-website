@@ -22,10 +22,10 @@ jobs:
           extended: true
 
       - name: Docsy prerequisites
-        run: npm install -D autoprefixer postcss-cli postcss
+        run: npm install --save-dev autoprefixer && npm install --save-dev postcss-cli && npm install -D postcss
 
       - name: Build
-        run: \rm -r ./resources && hugo version && hugo --minify
+        run:  hugo version && hugo --minify
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
