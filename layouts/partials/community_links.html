@@ -10,11 +10,15 @@
     </div>
     <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
         <h2>{{ T "community_develop" }}</h2>
-        <p>{{ T "community_contribute" . }}</p>
+        <p>{{ T "community_contribute" . }} </p>
         {{ with index $links "developer"}}
         {{ template "community-links-list" . }}
         {{ end }}
-        <p>{{ T "community_how_to" . }} <a href="/docs/contribution-guidelines/">{{ T "community_guideline" }}</a>
+        <p>
+            {{ T "community_view_project_team" . }} <a href="/AMRH-website/docs/team">Project Team</a>
+            <br>
+            {{ T "community_how_to" . }} <a href="/AMRH-website/docs/contribution/">{{ T "community_guideline" }}</a>
+        </p>
     </div>
 </section>
 

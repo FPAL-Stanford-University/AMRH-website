@@ -66,9 +66,9 @@ other = "Print entire section"
 [community_join]
 other = "Join the {{ .Site.Title }} community!"
 [community_introduce]
-other = "{{ .Site.Title }} is an open source project. The communitiy welcomes everyone such as students, educators, and research scientists in academia or industry. Anyone can use for free and improve with us."
+other = "{{ .Site.Title }} is an open source project. Our community welcomes everyone."
 [community_learn]
-other = "Learn and Connect"
+other = "Connect to User Community"
 [community_using]
 other = "Using or want to use {{ .Site.Title }}? Find out more here:"
 [community_develop]
@@ -79,3 +79,6 @@ other = "If you want to get more involved in contributing to {{ .Site.Title }}, 
 other = "You can find out how to contribute to {{ .Site.Title }} in our"
 [community_guideline]
 other = "Contribution Guidelines"
+[community_view_project_team]
+other = "View the current {{ .Site.Title }}"
+
