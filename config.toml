@@ -1,4 +1,5 @@
-baseURL = "https://fpal-stanford-university.github.io/AMRH-website/"
+#baseURL = "https://fpal-stanford-university.github.io/AMRH-website/"
+baseURL = "https://amr-h.stanford.edu/"
 title = "AMR-H"
 
 # Language settings
