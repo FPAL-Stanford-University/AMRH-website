@@ -15,9 +15,9 @@
         {{ template "community-links-list" . }}
         {{ end }}
         <p>
-            {{ T "community_view_project_team" . }} <a href="/AMRH-website/docs/team">Project Team</a>
+            {{ T "community_view_project_team" . }} <a href="{{ .Site.BaseURL }}/docs/team">Project Team</a>
             <br>
-            {{ T "community_how_to" . }} <a href="/AMRH-website/docs/contribution/">{{ T "community_guideline" }}</a>
+            {{ T "community_how_to" . }} <a href="{{ .Site.BaseURL }}/docs/contribution">{{ T "community_guideline" }}</a>
         </p>
     </div>
 </section>
